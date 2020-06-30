@@ -1,0 +1,17 @@
+欢迎加入刷机交流群（796285622）：https://jq.qq.com/?_wv=1027&k=52Cv7CE
+
+V1.1版本的刷机说明参考：
+http://www.ittel.cn/archives/654.html
+
+如果无法打开永久telnet，可按如下操作：
+1、下载群文件中的mtd6on.zip，解压成mtd6on，拷贝到U盘
+2、U盘插入K3C USB口
+3、在175官方版本上用工具打开telnet
+4、windows命令行telnet连接K3C（telnet 192.168.2.1）
+5、在telnet中输入命令
+mtd write /ramdisk/usb/.run/mountd/sda1/mtd6on pro_info
+6、在telnet中输入命令telnetd_startup show查看是否打开永久标志（返回telnetd default on）
+
+成功升级到官改后，如需关闭永久telnet，可以用telnetd_startup clear关闭，后续如需打开，可在SSH中仍然按上述操作
+
+欢迎加入刷机交流群（796285622）：https://jq.qq.com/?_wv=1027&k=52Cv7CE

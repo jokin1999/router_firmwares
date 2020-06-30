@@ -1,0 +1,9 @@
+欢迎加入刷机交流群（796285622）：https://jq.qq.com/?_wv=1027&k=52Cv7CE
+
+1、下载离线刷机固件，比如k3c_v14.tar.gz，将其拷贝到U盘
+2、将U盘插入K3C的USB接口
+3、telnet或ssh或webshell运行如下命令刷机
+tar xzf /ramdisk/usb/.run/mountd/sda1/k3c_v14.tar.gz -C /tmp && /tmp/upfw.sh
+将上述命令中的k3c_v14.tar.gz改为你下载的固件名称，将/ramdisk/usb/.run/mountd/sda1改为你的U盘路径（可用mount命令查看）
+
+欢迎加入刷机交流群（796285622）：https://jq.qq.com/?_wv=1027&k=52Cv7CE
